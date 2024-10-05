@@ -17,13 +17,19 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16' # Use the Node.js version compatible with React
+          node-version: '16'  # Use the Node.js version compatible with React
 
       - name: Install dependencies
         run: npm install
 
       - name: Build the app
         run: npm run build
+
+      # Add Git config before deploying
+      - name: Configure Git
+        run: |
+          git config --global user.name 'Sabari231024'
+          git config --global user.email 'sabarisrinivas004@gmail.com'
 
       - name: Deploy to GitHub Pages
         run: npm run deploy
