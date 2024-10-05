@@ -24,7 +24,7 @@ import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
 import figma from "./assets/techstack/figma.png";
 // Porject Images
-//import projectImage1 from "./assets/projects/project1.jpg";
+import projectImage1 from "./assets/projects/project1.jpg";
 
 
 // Logos
@@ -102,17 +102,17 @@ export const techStackDetails = {
 };
 
 // Enter your Project Details here
-//export const projectDetails = [
-  //{
-    //title: "Project title 1",
-    //image: projectImage1,
-    //description: `This is sample project description random things are here in description This is sample
-//project lorem ipsum generator for dummy content`,
-    //techstack: "HTML/CSS, JavaScript",
-    //previewLink: "https://google.com",
-    //githubLink: "https://github.com",
-  //}
-//];
+export const projectDetails = [
+  {
+    title: "Project title 1",
+    image: projectImage1,
+    description: `This is sample project description random things are here in description This is sample
+project lorem ipsum generator for dummy content`,
+    techstack: "HTML/CSS, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  }
+];
 
 // Enter your Contact Details here
 export const contactDetails = {
