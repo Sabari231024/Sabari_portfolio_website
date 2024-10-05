@@ -1,7 +1,7 @@
 import React from "react";
-//import Project from "../Components/Project";
-//import { projectDetails } from "../Details";
-/*
+import Project from "../Components/Project";
+import { projectDetails } from "../Details";
+
 function Projects() {
   return (
     <main className="container mx-auto max-width pt-10 mb-20">
@@ -31,4 +31,3 @@ function Projects() {
 }
 
 export default Projects;
-*/
