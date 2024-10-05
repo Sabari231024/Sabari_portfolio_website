@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Sabari_portfolio_website/static/css/main.556ce807.css",
+    "main.js": "/Sabari_portfolio_website/static/js/main.acd1d2e0.js",
+    "static/media/nlp.png": "/Sabari_portfolio_website/static/media/nlp.0534d2794ca5975fe902.png",
+    "static/media/four.jpg": "/Sabari_portfolio_website/static/media/four.e16f94c4a7afdc06b514.jpg",
+    "static/media/GITHUBPH.jpg": "/Sabari_portfolio_website/static/media/GITHUBPH.3d19ea03d71270fe2317.jpg",
+    "static/media/profile.jpg": "/Sabari_portfolio_website/static/media/profile.72a70000f5be93ab4963.jpg",
+    "static/media/logo.svg": "/Sabari_portfolio_website/static/media/logo.0bad282e338a9971ebc84d7e1098fd15.svg",
+    "static/media/logo2.svg": "/Sabari_portfolio_website/static/media/logo2.8748cd4b53ed338faabde58af993f30a.svg",
+    "index.html": "/Sabari_portfolio_website/index.html",
+    "main.556ce807.css.map": "/Sabari_portfolio_website/static/css/main.556ce807.css.map",
+    "main.acd1d2e0.js.map": "/Sabari_portfolio_website/static/js/main.acd1d2e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.556ce807.css",
+    "static/js/main.acd1d2e0.js"
+  ]
+}
