@@ -25,11 +25,12 @@ jobs:
       - name: Build the app
         run: npm run build
 
-      # Add Git config before deploying
       - name: Configure Git
         run: |
-          git config --global user.name '/Sabari_Srinivas_231024'
-          git config --global user.email 'sabarisrinivas004@gmail.com'
+          git config --global user.email "sabarisrinivas004@gmail.com"
+          git config --global user.name "Sabari231024"
+          git config --global url.https://${{ secrets.PAT_TOKEN }}@github.com/.insteadOf https://github.com/
+
 
       - name: Deploy to GitHub Pages
         run: npm run deploy
