@@ -28,7 +28,7 @@ jobs:
       # Add Git config before deploying
       - name: Configure Git
         run: |
-          git config --global user.name 'Sabari231024'
+          git config --global user.name 'Sabari_Srinivas_231024'
           git config --global user.email 'sabarisrinivas004@gmail.com'
 
       - name: Deploy to GitHub Pages
